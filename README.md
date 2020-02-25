@@ -9,7 +9,7 @@ More info: https://vincentarelbundock.github.io/Rdatasets/doc/Stat2Data/Hawks.ht
 
 In total, the dataframe contained 908 observations and 19 variables with 3 different hawk species: Red-tailed, Sharp-Shinned, and Cooper's. 
 
-Variables selected for k-means clustering were chosen for relevance to hawk-specific phenotype and for variables with the least amount of missing values in the dataset.
+Variables selected for k-means clustering were chosen for relevance to potential hawk-specific phenotypes and for variables with the least amount of missing values in the dataset.
 
 Data was then clustered on these 5 dimensions: Weight (g), Wing (mm), Culmen (mm), Hallux (mm) and tail (mm). 
 Seed was set to 1000, and after the k-means algorithm was finished assigning clusters, a cluster count table was recorded with respect to each species.
