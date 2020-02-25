@@ -3,7 +3,9 @@
 This is a script designed to classify hawk species with unsupervised learning by k-means clustering in R.
 
 The ‘hawks’ dataset was retrieved from: https://vincentarelbundock.github.io/Rdatasets/datasets.html
+
 More info: https://vincentarelbundock.github.io/Rdatasets/doc/Stat2Data/Hawks.html
+
 
 In total, the dataframe contained 908 observations and 19 variables with 3 different hawk species: Red-tailed, Sharp-Shinned, and Cooper's. 
 I filtered for continuous features that could be used for clustering analysis: 
