@@ -11,7 +11,7 @@ In total, the dataframe contained 908 observations and 19 variables with 3 diffe
 
 Variables selected for k-means clustering were chosen for relevance to potential hawk-specific phenotypes and for variables with the least amount of missing values in the dataset.
 
-Data was then clustered on these 5 dimensions: Weight (g), Wing (mm), Culmen (mm), Hallux (mm) and tail (mm). 
+Data was then clustered on these 5 dimensions: Weight (g), Wing (mm), Culmen (mm), Hallux (mm) and Tail (mm). 
 Seed was set to 1000, and after the k-means algorithm was finished assigning clusters, a cluster count table was recorded with respect to each species.
 
 I was exploring visualizations 3D scatterplots with plotly as well, so I created a 3D visualization using only 3 of the 5 dimensions used in the k-means clustering: 
