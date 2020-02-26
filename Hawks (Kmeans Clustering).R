@@ -23,7 +23,7 @@ hawks_features$Tail <- scale(hawks_features$Tail)
 # Set seed
 set.seed(1000)
 
-# K-means clustering, k = 3 (Using non-standardized variables)
+# K-means clustering, k = 3
 results <- kmeans(hawks_features, 3)
 hawks_clustered <- data.frame(hawks_features, cluster=factor(results$cluster))
 
